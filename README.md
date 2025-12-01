@@ -8,7 +8,7 @@ This is a little more complex.
 
 The server sends randomized data for four stocks using JSON:
 
-{"ticker": "AMZN", "name": "Amazon", "price": 356, "volume": 3500}
+Example: {"ticker": "AMZN", "name": "Amazon", "price": 356, "volume": 3500}
 
 The four ticker symbols are configured in a JSON configuration file used by the node server: AMZN, IBM, DOW, NASDAQ
 
@@ -32,4 +32,4 @@ The sparklines will look better when I fix the server's randomization process.
 
 It took me an afternoon, with copious references to Stackoverflow and D3 documentation. Just Google. I prefer to make my own mistakes, not debug an AI's idea of what I should be doing.
 
-The repository contains the node server and configuration file for the server (must be in the same directory). Note the port to use is defined in the configuration file. Currently set to 31415.
+The repository contains the node server and configuration file for the server (must be in the same directory). Note the port to use is defined in the configuration file. Currently set to 31415. It also contains the sample client code that was posted in Brightspace.
